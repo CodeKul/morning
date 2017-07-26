@@ -1,1 +1,1 @@
-include ':app', ':simple', ':appllib'
+include ':app', ':simple', ':appllib', ':viewprops', ':layouts'

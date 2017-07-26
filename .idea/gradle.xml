@@ -10,7 +10,9 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/appllib" />
+            <option value="$PROJECT_DIR$/layouts" />
             <option value="$PROJECT_DIR$/simple" />
+            <option value="$PROJECT_DIR$/viewprops" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

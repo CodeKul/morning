@@ -5,7 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/android-12-1.30.iml" filepath="$PROJECT_DIR$/android-12-1.30.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/appllib/appllib.iml" filepath="$PROJECT_DIR$/appllib/appllib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/layouts/layouts.iml" filepath="$PROJECT_DIR$/layouts/layouts.iml" />
       <module fileurl="file://$PROJECT_DIR$/simple/simple.iml" filepath="$PROJECT_DIR$/simple/simple.iml" />
+      <module fileurl="file://$PROJECT_DIR$/viewprops/viewprops.iml" filepath="$PROJECT_DIR$/viewprops/viewprops.iml" />
     </modules>
   </component>
 </project>
