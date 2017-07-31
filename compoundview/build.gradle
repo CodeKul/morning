@@ -6,7 +6,7 @@ android {
 
 
     defaultConfig {
-        applicationId "com.melayer.interactivitycommunication"
+        applicationId "com.melayer.compoundview"
         minSdkVersion 21
         targetSdkVersion 26
         versionCode 1
@@ -20,11 +20,6 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
-    }
-
-    compileOptions {
-        sourceCompatibility 1.8
-        targetCompatibility 1.8
     }
 }
 
