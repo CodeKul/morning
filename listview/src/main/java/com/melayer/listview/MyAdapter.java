@@ -5,6 +5,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 import java.util.List;
 
@@ -41,9 +43,15 @@ public class MyAdapter extends BaseAdapter {
     }
 
     @Override
-    public View getView(int pos, View view, ViewGroup viewGroup) {
+    public View getView(int pos, View viewConvert, ViewGroup viewGroup) {
 
-        View viewInflated = inflater.inflate(R.layout.list_item, null, false);
+        View viewInflated = null;
+        if (viewConvert == null) {
+            viewInflated = inflater.inflate(R.layout.list_item, null, false);
+        } else viewInflated = viewConvert;
+
+        ((ImageView) viewInflated.findViewById(R.id.img)).setImageResource(items.get(pos).img);
+        ((TextView) viewInflated.findViewById(R.id.txt)).setText(items.get(pos).nm);
 
         return viewInflated;
     }
