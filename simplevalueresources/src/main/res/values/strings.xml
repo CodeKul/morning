@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SimpleValueResources</string>
+    <string name="btnOkay">Okay</string>
+
+    <string-array name="mobiles">
+        <item>Android</item>
+        <item>iOS</item>
+        <item>Rim</item>
+        <item>Whatever</item>
+    </string-array>
+</resources>

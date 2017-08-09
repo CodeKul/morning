@@ -16,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/runtimechanges1/runtimechanges1.iml" filepath="$PROJECT_DIR$/runtimechanges1/runtimechanges1.iml" />
       <module fileurl="file://$PROJECT_DIR$/runtimechanges2/runtimechanges2.iml" filepath="$PROJECT_DIR$/runtimechanges2/runtimechanges2.iml" />
       <module fileurl="file://$PROJECT_DIR$/simple/simple.iml" filepath="$PROJECT_DIR$/simple/simple.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simplevalueresources/simplevalueresources.iml" filepath="$PROJECT_DIR$/simplevalueresources/simplevalueresources.iml" />
       <module fileurl="file://$PROJECT_DIR$/viewprops/viewprops.iml" filepath="$PROJECT_DIR$/viewprops/viewprops.iml" />
     </modules>
   </component>
