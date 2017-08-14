@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FragBackStk</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="etUsNm">User Name</string>
+    <string name="etPass">Password</string>
+    <string name="btnLogin">Login</string>
+    <string name="etNotiUs">Notify To</string>
+    <string name="btnNotify">Notify</string>
+</resources>
