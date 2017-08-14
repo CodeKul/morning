@@ -16,13 +16,7 @@ public class MainActivity extends AppCompatActivity {
     public void loadFrag(int img) {
         FragmentManager mgr = getSupportFragmentManager();
         FragmentTransaction txn = mgr.beginTransaction();
-
-        BlankFragment frag = new BlankFragment();
-        Bundle bundle = new Bundle();
-        bundle.putInt("img", img);
-        frag.setArguments(bundle);
-
-        txn.replace(R.id.frameLayout, frag);
+        txn.replace(R.id.frameLayout, BlankFragment.getInstance(img));
         txn.commit();
     }
 }

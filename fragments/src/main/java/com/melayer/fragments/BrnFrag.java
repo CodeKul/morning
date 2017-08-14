@@ -14,6 +14,11 @@ import android.widget.RatingBar;
  */
 public class BrnFrag extends Fragment {
 
+    public static BrnFrag getInstance() {
+        BrnFrag frag = new BrnFrag();
+
+        return frag;
+    }
 
     public BrnFrag() {
         // Required empty public constructor
