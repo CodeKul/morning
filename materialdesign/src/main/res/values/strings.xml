@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MaterialDesign</string>
+    <string name="action_settings">Settings</string>
+    <string name="actionCopy">Copy</string>
+    <string name="actionCut">Cut</string>
+    <string name="title_activity_sample_sctivity">SampleSctivity</string>
+</resources>
