@@ -19,6 +19,7 @@
             <option value="$PROJECT_DIR$/fragments" />
             <option value="$PROJECT_DIR$/intentandintentfilters" />
             <option value="$PROJECT_DIR$/interactivitycommunication" />
+            <option value="$PROJECT_DIR$/jobschedular" />
             <option value="$PROJECT_DIR$/layouts" />
             <option value="$PROJECT_DIR$/listview" />
             <option value="$PROJECT_DIR$/materialdesign" />
@@ -27,6 +28,7 @@
             <option value="$PROJECT_DIR$/resources" />
             <option value="$PROJECT_DIR$/runtimechanges1" />
             <option value="$PROJECT_DIR$/runtimechanges2" />
+            <option value="$PROJECT_DIR$/service" />
             <option value="$PROJECT_DIR$/simple" />
             <option value="$PROJECT_DIR$/simplevalueresources" />
             <option value="$PROJECT_DIR$/viewprops" />
