@@ -20,8 +20,6 @@ public class MyJobService extends JobService {
 
         Log.i("@codekul", "Started Job");
 
-      /*  mp = MediaPlayer.create(this, R.raw.my);
-
         NotificationCompat.Builder builder = new NotificationCompat.Builder(this, "123");
 
         builder.setTicker("Song Service")
@@ -33,8 +31,12 @@ public class MyJobService extends JobService {
                 .setChannelId("123");
 
         NotificationManager manager = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
-//        manager.notify(123, builder.build());
-        startForeground(123, builder.build());*/
+        //manager.notify(123, builder.build());
+        startForeground(123, builder.build());
+
+        mp = MediaPlayer.create(this, R.raw.my);
+        mp.start();
+
         return false;
     }
 
