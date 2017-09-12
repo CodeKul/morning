@@ -34,6 +34,8 @@
             <option value="$PROJECT_DIR$/service" />
             <option value="$PROJECT_DIR$/simple" />
             <option value="$PROJECT_DIR$/simplevalueresources" />
+            <option value="$PROJECT_DIR$/statusbarnotifications" />
+            <option value="$PROJECT_DIR$/uithread" />
             <option value="$PROJECT_DIR$/viewprops" />
           </set>
         </option>
