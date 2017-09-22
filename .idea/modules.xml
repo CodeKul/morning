@@ -13,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/constraintdemo/constraintdemo.iml" filepath="$PROJECT_DIR$/constraintdemo/constraintdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/customview/customview.iml" filepath="$PROJECT_DIR$/customview/customview.iml" />
       <module fileurl="file://$PROJECT_DIR$/dialogs/dialogs.iml" filepath="$PROJECT_DIR$/dialogs/dialogs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/externalstorage/externalstorage.iml" filepath="$PROJECT_DIR$/externalstorage/externalstorage.iml" />
       <module fileurl="file://$PROJECT_DIR$/fragbackstk/fragbackstk.iml" filepath="$PROJECT_DIR$/fragbackstk/fragbackstk.iml" />
       <module fileurl="file://$PROJECT_DIR$/fragments/fragments.iml" filepath="$PROJECT_DIR$/fragments/fragments.iml" />
       <module fileurl="file://$PROJECT_DIR$/intentandintentfilters/intentandintentfilters.iml" filepath="$PROJECT_DIR$/intentandintentfilters/intentandintentfilters.iml" />
@@ -32,6 +33,7 @@
       <module fileurl="file://$PROJECT_DIR$/sharedprefs/sharedprefs.iml" filepath="$PROJECT_DIR$/sharedprefs/sharedprefs.iml" />
       <module fileurl="file://$PROJECT_DIR$/simple/simple.iml" filepath="$PROJECT_DIR$/simple/simple.iml" />
       <module fileurl="file://$PROJECT_DIR$/simplevalueresources/simplevalueresources.iml" filepath="$PROJECT_DIR$/simplevalueresources/simplevalueresources.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sqlite/sqlite.iml" filepath="$PROJECT_DIR$/sqlite/sqlite.iml" />
       <module fileurl="file://$PROJECT_DIR$/statusbarnotifications/statusbarnotifications.iml" filepath="$PROJECT_DIR$/statusbarnotifications/statusbarnotifications.iml" />
       <module fileurl="file://$PROJECT_DIR$/uithread/uithread.iml" filepath="$PROJECT_DIR$/uithread/uithread.iml" />
       <module fileurl="file://$PROJECT_DIR$/viewprops/viewprops.iml" filepath="$PROJECT_DIR$/viewprops/viewprops.iml" />
