@@ -43,14 +43,33 @@ public class MainActivity extends AppCompatActivity {
 
     public void onUpdate(View view) {
 
+        String table = "codekul";
+        String where = "city = ?";
+        String[] whereArgs = {getCity()};
+        ContentValues values = new ContentValues();
+        values.put("nm", getNm());
+        values.put("mob", getMob());
+
+        SQLiteDatabase sqDb = helper.getWritableDatabase();
+        sqDb.update(table, values, where, whereArgs);
+        sqDb.close();
     }
 
     public void onDelete(View view) {
+        String table = "codekul";
+        String where = "city = ?";
+        String[] whereArgs = {getCity()};
 
+        SQLiteDatabase sqDb = helper.getWritableDatabase();
+        sqDb.delete(table, where, whereArgs);
+        sqDb.close();
     }
 
     public void onQuery(View view) {
+        selectFew();
+    }
 
+    private void selectAll() {
         String table = "codekul";
         String[] columns = null;
         String selection = null;
@@ -70,18 +89,49 @@ public class MainActivity extends AppCompatActivity {
                 orderBy
         );
 
-        while(cursor.moveToNext()) {
+        while (cursor.moveToNext()) {
             String nm = cursor.getString(0);
             String mob = cursor.getString(1);
             int city = cursor.getInt(cursor.getColumnIndex("city"));
-            Log.i("@codekul", "Name - "+nm +" Mob - "+mob+" City - "+city);
+            Log.i("@codekul", "Name - " + nm + " Mob - " + mob + " City - " + city);
+        }
+        cursor.close();
+        sqDb.close();
+    }
+
+    private void selectFew() {
+        String table = "codekul";
+        String[] columns = {"nm", "mob"};
+        String selection = "city = ?";
+        String[] selectionArgs = {getCity()};
+        String groupBy = null;
+        String having = null;
+        String orderBy = null;
+
+        SQLiteDatabase sqDb = helper.getReadableDatabase();
+        Cursor cursor = sqDb.query(
+                table,
+                columns,
+                selection,
+                selectionArgs,
+                groupBy,
+                having,
+                orderBy
+        );
+
+        while (cursor.moveToNext()) {
+            String nm = cursor.getString(0);
+            String mob = cursor.getString(1);
+            //int city = cursor.getInt(cursor.getColumnIndex("city"));
+            Log.i("@codekul", "Name - " + nm + " Mob - " + mob);
         }
         cursor.close();
         sqDb.close();
     }
 
     public void onRawQuery(View view) {
-
+        SQLiteDatabase sqDb = helper.getWritableDatabase();
+        sqDb.execSQL("insert into codekul values('mouse', '9762548833', 2)");
     }
 
     private String getNm() {

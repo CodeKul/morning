@@ -1,0 +1,17 @@
+{
+  "nm": "Android",
+  "topic": "Json parsing",
+  "topicNum": 8,
+  "isGood": true,
+  "subTopic": {
+    "http": "yes it is",
+    "weight": 78.56
+  },
+  "topics": [
+    "Android",
+    "Java",
+    "Kotlin",
+    "node",
+    "cpp"
+  ]
+}
