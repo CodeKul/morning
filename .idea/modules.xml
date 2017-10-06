@@ -32,6 +32,7 @@
       <module fileurl="file://$PROJECT_DIR$/resources/resources.iml" filepath="$PROJECT_DIR$/resources/resources.iml" />
       <module fileurl="file://$PROJECT_DIR$/runtimechanges1/runtimechanges1.iml" filepath="$PROJECT_DIR$/runtimechanges1/runtimechanges1.iml" />
       <module fileurl="file://$PROJECT_DIR$/runtimechanges2/runtimechanges2.iml" filepath="$PROJECT_DIR$/runtimechanges2/runtimechanges2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/runtimepermissions/runtimepermissions.iml" filepath="$PROJECT_DIR$/runtimepermissions/runtimepermissions.iml" />
       <module fileurl="file://$PROJECT_DIR$/service/service.iml" filepath="$PROJECT_DIR$/service/service.iml" />
       <module fileurl="file://$PROJECT_DIR$/sharedprefs/sharedprefs.iml" filepath="$PROJECT_DIR$/sharedprefs/sharedprefs.iml" />
       <module fileurl="file://$PROJECT_DIR$/simple/simple.iml" filepath="$PROJECT_DIR$/simple/simple.iml" />
