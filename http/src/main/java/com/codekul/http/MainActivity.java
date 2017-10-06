@@ -9,9 +9,13 @@ import android.widget.TextView;
 
 import com.android.volley.RequestQueue;
 import com.android.volley.VolleyError;
+import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.google.gson.Gson;
+
+import org.json.JSONException;
+import org.json.JSONObject;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -33,6 +37,20 @@ public class MainActivity extends AppCompatActivity {
                 this::onResponse,
                 this::onError
         ));
+
+        JSONObject obj = new JSONObject();
+        try {
+            obj.put("nm", "android");
+            obj.put("city", "goa");
+            obj.put("mob", "9762548833");
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
+        q.add(new JsonObjectRequest("https://digital-shelter-153912.firebaseio.com/myOther.json", obj, res -> {
+            Log.i("@codekul", "Data posted sucessfully");
+        }, err -> {
+        }));
     }
 
     private void onResponse(String res) {
